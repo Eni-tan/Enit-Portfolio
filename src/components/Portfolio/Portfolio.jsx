@@ -6,6 +6,9 @@ import dashboard from '../../asset/Dashboard.png'
 import jobtracker from '../../asset/Jobtracker-logo.png'
 import CFI from '../../asset/CFIwebsite.png'
 import Enit from '../../asset/Eni-ecommerce.png'
+import Formpage from '../../asset/Formpage.png'
+import Snack from '../../asset/Snack-hub.png'
+import Binx from '../../asset/BinxAi.png'
 
 const Portfolio = () => {
   const [ref, isVisible] = useScrollReveal()
@@ -45,27 +48,35 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      name: 'Portfolio Website Builder',
-      role: 'Full Stack Developer',
-      description: 'SaaS platform for creating professional portfolio websites with customizable templates.',
-      link: 'https://example.com/project5',
+      name: 'Electronic Commerce Website',
+      role: 'Front-End Developer',
+      description: 'A responsive e-commerce website with product listings, cart functionality, and checkout process.',
+      link: 'https://Quick-cart.vercel.app/',
       image: Enit
     },
     {
       id: 6,
-      name: 'Fitness Tracking App',
-      role: 'Mobile Developer',
-      description: 'React Native app for tracking workouts, nutrition, and fitness goals.',
-      link: 'https://example.com/project6',
-      image: '/assets/project-6.jpg'
-    },
-    {
-      id: 7,
-      name: 'Restaurant Booking System',
+      name: 'Snack-Hub App',
       role: 'Front-End Developer',
-      description: 'Online reservation system with table management and customer reviews.',
-      link: 'https://example.com/project7',
-      image: '/assets/project-7.jpg'
+      description: 'Responsive web application for learning and managing snack recipes.',
+      link: 'https://example.com/project6',
+      image: Snack
+    },
+      {
+      id: 7,
+      name: 'Binx',
+      role: 'Front-End Developer',
+      description: 'Responsive web application for learning and managing snack recipes.',
+      link: 'https://example.com/project6',
+      image: Binx
+    },
+      {
+      id: 8,
+      name: 'Form-Page',
+      role: 'Front-End Developer',
+      description: 'Responsive web application for learning and managing snack recipes.',
+      link: 'https://example.com/project6',
+      image: Formpage
     },
    
   ]
