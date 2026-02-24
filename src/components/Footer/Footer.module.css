@@ -1,0 +1,172 @@
+.footer {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 3rem 2rem 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.getInTouch {
+  flex: 1;
+}
+
+.footerTitle {
+  font-size: 1.75rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footerText {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.email {
+  display: inline-block;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.email:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.socialLinks {
+  text-align: center;
+}
+
+.socialTitle {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.socialIcon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.socialIcon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.socialIcon:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-3px) scale(1.05);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .getInTouch {
+    max-width: 100%;
+  }
+
+  .footerTitle {
+    font-size: 1.5rem;
+  }
+
+  .socialIcons {
+    gap: 1.25rem;
+  }
+
+  .socialIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .socialIcon svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2rem 1rem 1rem;
+  }
+
+  .footerContent {
+    gap: 2rem;
+  }
+
+  .footerTitle {
+    font-size: 1.3rem;
+  }
+
+  .email {
+    font-size: 1rem;
+    padding: 0.625rem 1.25rem;
+  }
+
+  .socialTitle {
+    font-size: 1.2rem;
+  }
+
+  .socialIcons {
+    gap: 1rem;
+  }
+
+  .copyright p {
+    font-size: 0.875rem;
+  }
+}
