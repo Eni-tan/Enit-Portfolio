@@ -1,4 +1,4 @@
-import React from 'react'
+
 import useScrollReveal from '../../hooks/useScrollReveal.jsx'
 import styles from './Skills.module.css'
 

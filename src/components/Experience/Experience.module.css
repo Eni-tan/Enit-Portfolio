@@ -127,7 +127,9 @@
 
 @media (max-width: 768px) {
   .experienceSection {
-    padding: 5rem 1.5rem 3rem;
+    min-height: auto;
+    align-items: flex-start;
+    padding: 2rem 1.5rem 1.25rem;
   }
 
   .sectionTitle {
@@ -154,7 +156,7 @@
 
 @media (max-width: 480px) {
   .experienceSection {
-    padding: 4.5rem 1rem 2.5rem;
+    padding: 1.5rem 1rem 1rem;
   }
 
   .sectionTitle {

@@ -32,7 +32,7 @@ function App() {
           <Portfolio />
         </section>
         <section id="contact">
-          <Contact />
+          {/* <Contact /> */}
         </section>
       </main>
       <Footer />
