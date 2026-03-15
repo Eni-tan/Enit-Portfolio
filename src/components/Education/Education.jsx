@@ -8,7 +8,7 @@ const Education = () => {
   const educationData = [
     {
       id: 1,
-      degree: 'Bachelor of Technology in Computer Civil Engineering',
+      degree: 'Bachelor of Technology in Civil Engineering',
       institution: 'Obafemi Awolowo University',
       period: '2021 - 2027',
       description: 'Focused on specializing in strucutral engineer.'
