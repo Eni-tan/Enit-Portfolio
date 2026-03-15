@@ -1,9 +1,9 @@
 .profileSection {
-  min-height: 100vh;
+  min-height: calc(100vh - 72px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8rem 2rem 4rem;
+  padding: 5.25rem 2rem 2rem;
   position: relative;
   z-index: 2;
 }
